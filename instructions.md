@@ -1,5 +1,8 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 221002ee40c3febe6f1e5cb256c1f2ee3d2cb1f9
 Project deadline:No changes will be accepted when this timer runs out
 Sunday 10th of March 2019
 
@@ -24,6 +27,7 @@ Create the backend page for the app.
 This is to be used to edit, update, create or delete houses to be sold.House model(id,item_name,description,price,pictures).
 
 You can have several pictures for the house
+<<<<<<< HEAD
 =======
 ## Project deadline:No changes will be accepted when this timer runs out
 #### Sunday 10th of March 2019
@@ -51,6 +55,8 @@ You can have several pictures for the house
 
 
 >>>>>>> 7584ccfb9ead5444b007659a9830c5842accb8f2
+=======
+>>>>>>> 221002ee40c3febe6f1e5cb256c1f2ee3d2cb1f9
 User should be able to pick an item and add to cart.Use session cart to store items chosen temporarily.Don't save cart data in database.
 
 Cart model(id,item_id,item_name,user_id)
