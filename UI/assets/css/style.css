@@ -78,7 +78,7 @@ html,body{
 	background: #f5f5f5;
 }
 a{color: #a66429;}
-.brand-color: #a66429 !important;
+.brand-color{color: #a66429 !important;}
 .small-hr{
 	border: 1px solid #A66429;
   	width: 97px;
@@ -98,4 +98,24 @@ a{color: #a66429;}
 	background: #a66429;
 	padding: 10px 3em;
 	color: #fff !important;
+}
+.btn-brand{
+	background: #A66429;
+	color: #fff;
+}
+.form-control{
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	border-bottom: 1px solid #a66429;
+	outline-color: #a66429;
+	border-color: #a66429 !important;
+	background: #e5e5e5 !important;
+	border-radius: 0;
+}
+.form-control:focus{
+	outline-color: #a66429;
+	box-shadow: 0 0 0 0.2em rgba(166, 100, 41, 0.3)!important;
+	/*0 0 0 0.2rem rgba(0,123,255,.25)*/
 }
