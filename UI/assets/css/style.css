@@ -30,6 +30,7 @@ html,body{
 }
 .font-color{ color: #000 !important; }
 .grey-text{ color:#526173 !important; }
+.dis-block{ display: block; }
 .nav-item{ color: #526173; }
 .hover-link:hover{ color:#b43e6c; }
 .nav-link{ font-size:15px; }
@@ -78,6 +79,10 @@ html,body{
 	background: #f5f5f5;
 }
 a{color: #a66429;}
+.h-380{
+	height: 380px;
+}
+.h-200{ height: 189px; }
 .brand-color{color: #a66429 !important;}
 .small-hr{
 	border: 1px solid #A66429;
@@ -118,4 +123,19 @@ a{color: #a66429;}
 	outline-color: #a66429;
 	box-shadow: 0 0 0 0.2em rgba(166, 100, 41, 0.3)!important;
 	/*0 0 0 0.2rem rgba(0,123,255,.25)*/
+}
+.banner-header{
+	height: 400px;
+}
+
+@media (max-width: 	575px){
+	.h-380{
+		height: 200px;
+	}
+	.h-200{
+		height: 100px;
+	}
+	.banner-header{
+		height: 200px;
+	}
 }
