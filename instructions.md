@@ -1,28 +1,29 @@
 
-Project deadline:No changes will be accepted when this timer runs out
-Sunday 10th of March 2019
+## Project deadline:No changes will be accepted when this timer runs out
+#### Sunday 10th of March 2019
 
 
-BYARENT
-BYARENT is a home buying platform.It allows potential homeowners to view houses and buy preferred on. Cedric is the owner of the platform and want to revamp up user experience of the platform.He has hired you create an appealing site that the users will find easy to use.
+### BYARENT
+#### BYARENT is a home buying platform.It allows potential homeowners to view houses and buy preferred on. Cedric is the owner of the platform and want to revamp up user experience of the platform.He has hired you create an appealing site that the users will find easy to use.
 
-Deliverables
-Create an easy to understand Ui Ux of a shopping experience.
+###Deliverables
+- Create an easy to understand Ui Ux of a shopping experience.
 
-Create a login and signup page use Allauth(django) or Auth(laravel) or Passportjs(express) package to manage this.
+- Create an index page that shows the houses on sale their pictures, prices and descriptions style it to make it appealing as possible. 
 
-User model(id,email,password).
+-  You can have several pictures for the house
 
-Use package as per framework assigned to build on.
+### Create the backend page for the app. 
+[Use package as per framework assigned to build on.]
+- Create a login and signup page use Allauth(django) or Auth(laravel) or Passportjs(express) package to manage this.
 
-Create an index page that shows the houses on sale their pictures, prices and descriptions style it to make it appealing as possible. 
+- User model(id,email,password).
 
-Fetch house details from the database.
-Create the backend page for the app. 
+- Fetch house details from the database.
 
-This is to be used to edit, update, create or delete houses to be sold.House model(id,item_name,description,price,pictures).
+- User should be able to edit, update, create or delete houses to be sold.House model(id,item_name,description,price,pictures).
 
-You can have several pictures for the house
+
 User should be able to pick an item and add to cart.Use session cart to store items chosen temporarily.Don't save cart data in database.
 
 Cart model(id,item_id,item_name,user_id)
