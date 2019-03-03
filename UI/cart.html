@@ -11,7 +11,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/style.css">
 
-		<title>BYARENT | Sign Up</title>
+		<title>BYARENT | Cart</title>
 	</head>
 	<body>
 		<!-- header -->
@@ -29,6 +29,18 @@
 	            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	                <ul class="navbar-nav mr-auto"> </ul>
 	                <ul class="navbar-nav navbar-right">
+	                    <li class="nav-item active">
+	                        <a class="nav-link font-color hover-link" href="rental.html">Rental Apartments</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link font-color hover-link" href="onsale_apartments.html">On Sale Apartments</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link font-color hover-link" href="register.html">Sign Up</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link font-color hover-link" href="login.html">Log In</a>
+	                    </li>
 	                </ul>
 	               
 	            </div>
@@ -39,41 +51,40 @@
 		<!-- main -->
 		<main>
             <div class="container mt-5">
-                <div class="heaver text-center">
-                    
-                    <p>To get your choice apartment</p>
-                    <h3 class="">Login to you Account</h3>
-                </div>
-                
-                <div class="row mt-5 justify-content-center">
-                    <div class="col-md-6 col-lg-6"> 
-                        <form action="" name="login-form">
-                            
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <br>
-                                <input type="email" id="email" name="email" class="form-control mt-3" placeholder="john@gmail.com" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <br>
-                                <input type="password" id="password" name="password" class="form-control mt-3" placeholder="chikaiike" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-block mt-5 btn-brand">Login</button>
-                            </div>
-                            <div class="form-group text-center mt-5">
-                                <p>Don't have an account? Sign Up<a href="register.html">here</a></p>
-                            </div>
-                            <div class="form-group text-center">
-                                <a href="reset_password.html">Forgot Password?</a>
-                            </div>
-                        </form>
+                <div class="row mt-5">
+                    <div class=" col-lg-7">
+                       <div class="border text-center">
+                       		<button class="btn btn-lg btn-primary my-3" id="fb_btn">Continue with Facebook</button>
+                       		<br >
+                       		<button class="btn btn-lg btn-outline-info my-3" id="gg_btn">Continue with google</button>
+                       		<br>
+                       		<button class="btn btn-lg btn-danger my-3" id="email_btn">Continue with Email</button>
+                       </div>                        
                     </div>
-                    
+                    <div class="col-lg-5">
+                    	<div class="border p-3">
+                    		<p><span class="text-danger mr-3">Seller:</span>The Luxury Estate Agents</p>
+                    		<div class="table-responsive">
+                    			<table class="table">
+                    				<tbody>
+                    					<tr>
+                    						<td>Quantity</td>
+                    						<td>1</td>
+                    					</tr>
+                    					<tr>
+                    						<td>Unit Price</td>
+                    						<td>&#8358;110,000:00</td>
+                    					</tr>
+                    					<tr>
+                    						<td>SubTotal</td>
+                    						<td>&#8358;110,000:000</td>
+                    					</tr>
+                    				</tbody>
+                    			</table>
+                    		</div>
+                    	</div>
+                    </div>
                 </div>
-                
             </div>
 		</main>
 		<!-- ./main -->
@@ -136,8 +147,14 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			app.initFbLogin();
+			app.initEmailLogin();
+			app.initGoogleLogin();
+		</script>
 	</body>
 </html>
