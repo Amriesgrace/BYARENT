@@ -1,14 +1,15 @@
 const app = {
-	initFbLogin: () => {
+	initFbLogin(){
 		const fbBtn = document.getElementById('fb_btn');
 
 		const fbLogin = () => {
 			alert('you want to login with facebook');
+			prompt('login with facebook')
 		}
 
 		fbBtn.addEventListener('click', fbLogin);
 	},
-	initEmailLogin: () => {
+	initEmailLogin(){
 		const emBtn = document.getElementById('email_btn');
 
 		const emailLogin = () => {
@@ -17,7 +18,7 @@ const app = {
 
 		emBtn.addEventListener('click', emailLogin);
 	},
-	initGoogleLogin: () => {
+	initGoogleLogin(){
 		const ggBtn = document.getElementById('gg_btn');
 
 		const googleLogin =() => {

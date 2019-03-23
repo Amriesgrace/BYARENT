@@ -1,9 +1,6 @@
 
-Project deadline:No changes will be accepted when this timer runs out
-Sunday 10th of March 2019
-
 ## Project deadline:No changes will be accepted when this timer runs out
-#### Sunday 10th of March 2019
+#### Sunday 22th of March 2019
 
 
 ### BYARENT
@@ -19,23 +16,24 @@ Sunday 10th of March 2019
 ### Create the backend page for the app. 
 [Use package as per framework assigned to build on.]
 
-- Create a login and signup page use Allauth(django) or Auth(laravel) or Passportjs(express) package to manage this.
-
-- User model(id,email,password).
+- Create a login and signup page use Passportjs(express) package to manage this.
 
 - Fetch house details from the database.
 
 - User should be able to edit, update, create or delete houses to be sold.
 
-- House model(id,item_name,description,price,pictures).
 
+
+- User model(id,email,password).
+- House model(id,item_name,description,price,pictures)
 - Cart model(id,item_id,item_name,user_id)
+- Order model(id,item_id,item_name,user_id).
 
+-Clear the cart on a successful order placement.
 - Create a checkout page that shows items in cart.
-
 - Create an orders page for successfully checked out items.Store orders in database.
 
-- Order model(id,item_id,item_name,user_id).Clear the cart on a successful order placement.
+
 
 - Deploy your app on Heroku
 
