@@ -6,7 +6,7 @@
 ### BYARENT
 #### BYARENT is a home buying platform.It allows potential homeowners to view houses and buy preferred on. Cedric is the owner of the platform and want to revamp up user experience of the platform.He has hired you create an appealing site that the users will find easy to use.
 
-###Deliverables
+### Deliverables
 - Create an easy to understand Ui Ux of a shopping experience.
 
 - Create an index page that shows the houses on sale their pictures, prices and descriptions style it to make it appealing as possible. 
@@ -14,7 +14,7 @@
 -  You can have several pictures for the house
 
 ### Create the backend page for the app. 
-[Use package as per framework assigned to build on.]
+- [Use package as per framework assigned to build on.]
 
 - Create a login and signup page use Passportjs(express) package to manage this.
 
